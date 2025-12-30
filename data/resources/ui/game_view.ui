@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="GameView" parent="GtkBox">
+    <property name="orientation">vertical</property>
+
+    <child>
+      <object class="GtkPaned" id="outer_paned">
+        <property name="orientation">horizontal</property>
+        <property name="shrink-start-child">false</property>
+        <property name="shrink-end-child">false</property>
+
+        <!-- LEFT: board -->
+        <child>
+          <object class="DartsBoard" id="board"/>
+        </child>
+        
+        <!-- RIGHT: vertical paned with 2 drawing areas -->
+        <child>
+          <object class="GtkPaned" id="right_paned">
+            <property name="orientation">vertical</property>
+            <property name="shrink-start-child">false</property>
+            <property name="shrink-end-child">false</property>
+
+            <child>
+              <object class="ScoreAreaTop" id="score_top"/>
+            </child>
+
+            <child>
+              <object class="ScoreAreaBottom" id="score_bottom"/>
+            </child>
+
+          </object>
+        </child>
+
+      </object>
+    </child>
+
+  </template>
+</interface>

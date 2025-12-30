@@ -1,0 +1,6 @@
+<gresources>
+	<gresource prefix="/com/vermesa/darts">
+		<file>ui/darts_board.ui</file>
+		<file>ui/game_view.ui</file>
+	</gresource>
+</gresources>

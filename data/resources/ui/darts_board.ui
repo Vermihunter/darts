@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="DartsBoard" parent="GtkBox">
+    <property name="orientation">vertical</property>
+
+    <child>
+      <object class="GtkDrawingArea" id="canvas">
+        <!-- Logical size hint only -->
+        <property name="content-width">800</property>
+        <property name="content-height">800</property>
+        <!-- Redraw when needed -->
+        <property name="hexpand">true</property>
+        <property name="vexpand">true</property>
+      </object>
+    </child>
+
+  </template>
+</interface>
+

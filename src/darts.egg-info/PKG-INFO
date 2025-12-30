@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: darts
+Version: 1.0.0
+Summary: An awesome library
+Author-email: Ákos Vermes <vermihunter@gmail.com>
+License: MIT
+Keywords: gtk,gtk4,darts,desktop,windows,mac,cross-platform,linux,gui
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file

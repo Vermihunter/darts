@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "darts"
+version = "1.0.0"
+description = "An awesome library"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Ákos Vermes", email = "vermihunter@gmail.com" }
+]
+
+keywords = ["gtk", "gtk4", "darts", "desktop", "windows", "mac", "cross-platform", "linux", "gui"]
+
+[project.scripts]
+darts = "darts.app:main"

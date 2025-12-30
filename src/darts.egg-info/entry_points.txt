@@ -1,0 +1,2 @@
+[console_scripts]
+darts = darts.app:main
